@@ -1,0 +1,69 @@
+form{
+	max-width: 550px;
+	font-family: 'Noto Serif SC', serif;
+	color: rgb(10,10,20);
+	transition: all 0.3s;
+
+
+}
+
+input{
+	background: rgba(230,230,230,0.8);
+	outline:none;
+	box-shadow:1px 1px 3px rgba(10,10,20,0.5),
+	3px 3px 5px rgba(10,10,20,0.2);
+	border:none;
+	transition: all 0.3s;
+
+}
+
+input:hover{
+	background: rgba(250,250,250,0.9);
+}
+
+textarea{
+	background: rgba(230,230,230,0.8);
+	box-shadow:1px 1px 3px rgba(10,10,20,0.5),
+	3px 3px 5px rgba(10,10,20,0.2);
+	transition: all 0.3s;
+
+}
+
+textarea:hover{
+	background: rgba(250,250,250,0.9);
+}
+
+input[type=submit]{
+	text-align:center;
+	margin: 0 auto;
+	width:320px;
+}
+#nameInput{
+	width:140px;
+	display: inline-block;
+}
+
+#namespacing{
+	width:30px;
+	display:inline-block;
+}
+
+#emailInput{
+	width:320px;
+}
+
+#commentFieldInput{
+	width:320px;
+	height:100px;
+	text-align:left;
+}
+
+#main-content #heading{
+	font-size: 2.5rem;
+	margin-bottom: 10px;
+
+}
+
+div .container-fluid #main-content {
+	margin-top:5px;
+}
