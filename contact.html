@@ -60,13 +60,29 @@
                 <div class="container" id="main-content">
                     <h1 id="heading">Contact Me</h1>
                     <form action="https://formspree.io/rowanlin00@gmail.com" method="POST">
-                        <p><input type="text" id="nameInput" name="firstname" placeholder="First Name" required>
-                            <span id="namespacing"></span>
-                            <input type="text" id="nameInput" name="lastname" placeholder="Last Name" required></p>
-                        <p><input type="email" id="emailInput" name="_replyto" placeholder="Your E-mail Address" required></p>
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="fnameInput">First Name</label>
+                                <input type="text" class="form-control" id="fnameInput" name="firstname" placeholder="First Name" required>
+                            </div>
+                            <div class="col">
+                                <label for="fnameInput">Last Name</label>
+                                <input type="text" class="form-control" id="lnameInput" name="lastname" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="emailInput">E-mail</label>
+                                <input type="email" id="emailInput" class="form-control" name="_replyto" placeholder="Your E-mail Address" required>
+                            </div>
+                        </div>
                         <input type="text" name="_gotcha" style="display:none">
-                        <p><textarea type="text" id="commentFieldInput" name="comments" placeholder="What would you like to say?" required></textarea></p>
-                        <p><input type="submit" value="Send"></p>
+                        <div class="form-row">
+                            <div class="col">
+                                <textarea type="text" class="form-control mt-4" id="commentFieldInput" name="comments" placeholder="What would you like to say?" required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-row"><div class="col"><input type="submit" class="mt-4 btn btn-block btn-light" value="Send"></div></div>
                     </form>
                 </div>
             </div>
