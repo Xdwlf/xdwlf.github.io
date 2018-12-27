@@ -4,8 +4,10 @@ form{
 	color: rgb(10,10,20);
 	transition: all 0.3s;
 	color:white;
+}
 
-
+label{
+	font-size:0.9rem;
 }
 
 input{
@@ -32,6 +34,19 @@ textarea{
 
 textarea:hover{
 	background: rgba(250,250,250,0.9);
+}
+.form-control{
+	background:rgba(250,250,250,0.8);
+	border-radius:1px;
+	outline:none;
+	border:none;
+}
+
+.btn{
+	background:rgba(250,250,250,0.8);
+	border-radius:1px;
+	outline:none;
+	border:none;
 }
 
 #main-content #heading{
