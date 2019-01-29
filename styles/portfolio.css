@@ -16,6 +16,7 @@ div .container-fluid #main-content{
 	background:none;
 	border-radius:none;
 	border:none;
+	margin-bottom: 35px;
 }
 
 .card .card-img-top{
